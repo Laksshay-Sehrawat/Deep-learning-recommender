@@ -1,6 +1,4 @@
-![logo](build/pair-logo.png "Pair logo")
-
-Pair is an image-based product recommender for matching visually similar products across categories. User provides an image of a preferred furniture, and the model will return furniture from another categories that have similar design. Pair uses a convolutional neural network (VGG16) to learn subtle design elements of furnitures and save the design features in a library. As the customer's preferred image is fed in, the image is queried against the design feature library to obtain product recommendations.
+This is an image-based product recommender for matching visually similar products across categories. User provides an image of a preferred furniture, and the model will return furniture from another categories that have similar design. Pair uses a convolutional neural network (VGG16) to learn subtle design elements of furnitures and save the design features in a library. As the customer's preferred image is fed in, the image is queried against the design feature library to obtain product recommendations.
 
 This repository contains 3 main components:  
 
